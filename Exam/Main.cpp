@@ -16,10 +16,14 @@ void main()
 		cout << (char)(i) << '\t';
 		i++;
 	}*/
-	unsigned char i {};
+	/*unsigned char i {};
 	while (i-255)
 	{
 		cout << i << '\t';
 		i++;
+	}*/
+	for (char i = 1; i; i++)
+	{
+		cout << i << '\t';
 	}
 }
